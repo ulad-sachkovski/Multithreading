@@ -1,0 +1,19 @@
+Russian:
+
+Автостоянка. Доступно несколько машиномест. 
+На одном месте может находиться только один автомобиль. 
+Если все места заняты, то автомобиль не станет ждать больше определенного времени и уедет на другую стоянку.
+
+Задача:
+Указать, какие автомобили уедут на другую стоянку
+
+______________________________________________________________________________________
+
+English:
+
+Parking. Several parking spaces are available.
+Only one car can take one parking place
+If all places are taken, then the car will not wait more than a certain time and will leave for this parking
+
+A task:
+Specify which cars will leave the parking

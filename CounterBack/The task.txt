@@ -1,5 +1,17 @@
+Russian:
+
 Напишите код, в котором создаются и запускаются на выполнение потоки S и W. 
 Поток S выполняет переключение с задержкой 1000 миллисекунд из состояния true в состояние false и наоборот. 
 Поток W ожидает состояния true потока S, выводит на консоль обратный отсчет от 30 с задержкой 100 миллисекунд и приостанавливает свое действие, 
 как только поток S переключен в состояние false. 
 Условием завершения работы потоков является достижение отсчета нулевой отметки.
+
+______________________________________________________________________________________
+
+English:
+
+Write code that creates and starts threads S and W.
+Thread S switches with a delay of 1000 milliseconds from true to false and vice versa.
+Thread W waits for thread S to be true, prints a countdown from 30 to the console with a delay of 100 milliseconds, and pauses,
+as soon as thread S is switched to the false state.
+The condition for threads to terminate is to reach countdown zero.
