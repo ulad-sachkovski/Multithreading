@@ -12,7 +12,7 @@ public class ThreadTrial extends Thread{
 
     private static volatile int freeSlots = 2;
 
-    public synchronized void run() {
+    public void run() {
         synchronized (lock) {
             while (freeSlots == 0) {
                 try {
@@ -26,7 +26,7 @@ public class ThreadTrial extends Thread{
             this.release();
         }
 
-    private synchronized void makeAction() {
+    private void makeAction() {
         synchronized (lock) {
             freeSlots--;
             System.out.println(Thread.currentThread().getName());
@@ -38,7 +38,7 @@ public class ThreadTrial extends Thread{
         }
     }
 
-    private synchronized void release() {
+    private void release() {
         synchronized (lock){
             freeSlots++;
             lock.notify();
