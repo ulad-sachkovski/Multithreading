@@ -1,0 +1,6 @@
+The programme calculates the factorial of N number:
+a) Using a parallel approach (Fork-Join framework)
+b) Using a sequential approach
+
+Programme result is the comparison of the speed of the parallel and sequential apporaches
+
